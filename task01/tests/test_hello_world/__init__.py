@@ -3,7 +3,7 @@ import importlib
 from tests import ImportFromSourceContext
 
 with ImportFromSourceContext():
-    LAMBDA_HANDLER = importlib.import_module('lambdas.hello-world.handler')
+    LAMBDA_HANDLER = importlib.import_module('lambdas.hello_world.handler')
 
 
 class HelloWorldLambdaTestCase(unittest.TestCase):
