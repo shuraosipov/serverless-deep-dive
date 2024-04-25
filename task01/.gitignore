@@ -1,3 +1,4 @@
 .syndicate
 .syndicate-config-dev
 logs/
+__pycache__/
